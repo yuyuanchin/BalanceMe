@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/workout"
+        android:title="Workout"
+        android:icon="@drawable/workout"
+        />
+
+    <item android:id="@+id/challenge"
+        android:title="Challenge"
+        android:icon="@drawable/challenge"/>
+
+    <item android:id="@+id/recommend"
+        android:title="Discover"
+        android:icon="@drawable/discover"/>
+
+    <item android:id="@+id/tips"
+        android:title="Reflection"
+        android:icon="@drawable/reflection"/>
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/profile"/>
+</menu>

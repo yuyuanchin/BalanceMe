@@ -1,0 +1,3 @@
+joined1,Push Up,100 Push up a day,75
+joined2,Sit Up,20 Sit up a day,50
+joined1,Push Up,100 Push up a day,30

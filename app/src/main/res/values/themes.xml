@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.BalanceMe" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue300</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/blue500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:fontFamily">@font/my_custom_font</item>
+    </style>
+
+    <style name="OverpassTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/overpass_bold</item>
+    </style>
+
+    <style name="PoppinsBoldTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="PoppinsSemiBoldTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="PoppinsLightTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+
+    <style name="PoppinsRegularTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="PoppinsMediumTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/blue400</item>
+    </style>
+
+    <style name="CustomOutlinedButton" parent="@style/Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor" tools:targetApi="lollipop">@color/blue300</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="cornerRadius">15dp</item>
+    </style>
+
+    <style name="CustomElevatedButton" parent="@style/Widget.Material3.Button.ElevatedButton">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/blue300</item>
+    </style>
+
+    <style name="CustomButton" parent="@style/Widget.Material3.Button">
+        <item name="backgroundTint">@color/blue300</item>
+        <item name="cornerRadius">15dp</item>
+    </style>
+
+    <style name="Theme.BalanceMe" parent="Base.Theme.BalanceMe" />
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BalanceMe"
+        tools:targetApi="31">
+
+        <!-- Login/Signup -->
+
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+
+        <activity
+            android:name=".Register"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Workout -->
+
+        <activity
+            android:name=".WorkoutSave"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutExerciseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutDetails"
+            android:exported="false" />
+
+        <!-- Challenge -->
+
+        <activity
+            android:name=".TodayChallengeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OngoingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PopularActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PastChallengesActivity"
+            android:exported="false" />
+
+        <!-- Recommend -->
+
+        <activity
+            android:name=".FavouriteActivity"
+            android:exported="false" />
+
+        <!-- Mental Health -->
+
+        <activity
+            android:name=".WriteDiaryActivity"
+            android:label="Write Diary" />
+
+        <activity
+            android:name=".DiaryHistoryActivity"
+            android:label="View Diary" />
+
+        <activity
+            android:name=".ViewTipsActivity"
+            android:label="View Tips" />
+
+        <activity
+            android:name=".ViewTips2Activity"
+            android:label="View Tips 2" />
+
+        <activity
+            android:name=".ViewTips3Activity"
+            android:label="View Tips 2" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "386472230213",
+    "firebase_url": "https://balanceme-6d6b6-default-rtdb.firebaseio.com",
+    "project_id": "balanceme-6d6b6",
+    "storage_bucket": "balanceme-6d6b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386472230213:android:10b224f0d5afc2ef7bd22c",
+        "android_client_info": {
+          "package_name": "com.bm.balanceme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOm0iAc41ppYo0RUhc4BMQf68ryczCTmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

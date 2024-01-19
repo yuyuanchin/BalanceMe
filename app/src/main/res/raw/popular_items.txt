@@ -1,0 +1,6 @@
+joined1,Workout 1,100 Push up a day,Complete daily check-ins and conquer our carefully curated workout routines for two weeks.
+joined2,Workout 2,20 Sit up a day,Complete daily check-ins and conquer our carefully curated workout routines for two weeks.
+joined1,Workout 3,50 Pull up a day,Complete daily check-ins and conquer our carefully curated workout routines for two weeks.
+joined2,Workout 4,20 Sit up a day,Complete daily check-ins and conquer our carefully curated workout routines for two weeks.
+category3,Workout 5,20 Sit up a day,Complete daily check-ins and conquer our carefully curated workout routines for two weeks.
+category1,Workout 6,20 Sit up a day,Complete daily check-ins and conquer our carefully curated workout routines for two weeks.

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="40dp"
+    android:background="@color/blue50"
+    tools:context=".PastChallengesActivity">
+
+    <TextView
+        android:id="@+id/textViewPastChallenges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/btnClose"
+        android:text="Past Challenges"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_bold" />
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_nav"
+        android:backgroundTint="@color/blue50"
+        android:layout_alignParentStart="true"
+        android:onClick="onCloseButtonClick" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPastChallenges"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewPastChallenges"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

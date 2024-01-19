@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BalanceMe</string>
+    <string name="virtual_challenge_heading">Virtual Challenge</string>
+    <string name="ongoing_desc"><![CDATA[Get ready to elevate your strength and redefine your fitness with our \'Push-Up Power\' Challenge! Over the next 20 days, we challenge you to complete 100 push-ups every day, sculpting your upper body and boosting your overall fitness level. This Read More...]]></string>
+    <string name="posture_guidance">Keep a straight line from head to heels, hands slightly wider than shoulders. Lower chest close to the ground, then push up, maintaining a plank-like position.</string>
+
+    <!--  buttons  -->
+    <string name="button_view_more">View More</string>
+    <string name="button_writediary">Write Diary</string>
+    <string name="button_save">Save</string>
+
+    <!--  mental-health-main-page-elements  -->
+    <string name="date">1 Jan 2024</string>
+
+    <!--  write-diary-elements  -->
+    <string name="writediary">Record your day here!</string>
+    <string name="today">Monday</string>
+    <string name="time">09.28pm</string>
+
+    <!--  view-tips-text-elements  -->
+    <string name="practice_gratitude">Practice Gratitude</string>
+    <string name="pg_desc">Practicing gratitude is a wonderful way to cultivate a positive mindset and enhance your overall well-being.
+        Here are some tips to help you incorporate gratitude into your daily life:</string>
+
+    <string name="positive_tips">6 Tips to Stay Positive</string>
+    <string name="ps_desc">Maintaining a positive outlook can contribute significantly to your overall well-being.
+        Here are six tips to help you stay positive</string>
+
+    <string name="coping_stress">How to Cope With Stress</string>
+    <string name="cs_desc">Coping with stress is crucial for maintaining overall well-being.
+        Here are several effective strategies to help you manage and reduce stress:</string>
+
+    <!--  my-diary-elements  -->
+    <string name="mydiary">My Diary</string>
+    <string name="historydate">History Date</string>
+    <string name="diaryhistory">Diary History</string>
+
+    <string name="diarycontent">This is your diary content</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

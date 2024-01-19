@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/outline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Name"
+        android:padding="15dp"
+        android:textColorHint="@color/grey300" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColorHint="@color/grey300" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/age"
+        android:drawablePadding="10dp"
+        android:hint="Age"
+        android:padding="15dp"
+        android:textColorHint="@color/grey300" />
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/height"
+        android:drawablePadding="10dp"
+        android:hint="Height (cm)"
+        android:padding="15dp"
+        android:textColorHint="@color/grey300" />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/weight"
+        android:drawablePadding="10dp"
+        android:hint="Weight (kg)"
+        android:padding="15dp"
+        android:textColorHint="@color/grey300" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue300"
+        android:padding="15dp"
+        android:shadowColor="#4D95ADFE"
+        android:text="Save"
+        android:textFontWeight="700"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
