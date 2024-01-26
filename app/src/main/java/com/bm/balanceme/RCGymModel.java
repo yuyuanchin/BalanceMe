@@ -7,6 +7,7 @@ public class RCGymModel {
     int ratingIcon;
     String ratingText;
     String address;
+    boolean isFavorite;
 
     public RCGymModel(String title, int image, int ratingIcon, String ratingText, String address) {
         this.title = title;
@@ -18,5 +19,13 @@ public class RCGymModel {
 
     public String getTitle() {
         return title;
+    }
+
+    public boolean isFavorite() {
+        return isFavorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        isFavorite = favorite;
     }
 }

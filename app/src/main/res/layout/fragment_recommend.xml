@@ -57,17 +57,6 @@
                 />
         </com.google.android.material.button.MaterialButtonToggleGroup>
 
-        <androidx.appcompat.widget.SearchView
-            android:id="@+id/searchView"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_margin="12dp"
-            android:background="@drawable/rounded_search_view_bg"
-            app:layout_scrollFlags="scroll|enterAlways"
-            app:iconifiedByDefault="false"
-            app:searchIcon="@drawable/search"
-            app:queryHint="Search"/>
-
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager2.widget.ViewPager2

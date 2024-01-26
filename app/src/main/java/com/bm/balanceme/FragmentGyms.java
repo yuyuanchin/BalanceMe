@@ -1,12 +1,16 @@
 package com.bm.balanceme;
 
 import android.os.Bundle;
+
+import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 
 import com.bm.balanceme.R;
 import com.bm.balanceme.RCGymAdapter;
@@ -50,12 +54,37 @@ public class FragmentGyms extends Fragment {
             "1, Lengkok Nipah, Taman Lip Sin, 11900 Bayan Lepas, Pulau Pinang"
     };
 
+    private void filter(String query) {
+        ArrayList<RCGymModel> filteredList = new ArrayList<>();
+        for (RCGymModel model : modelArrayList) {
+            if (model.getTitle().toLowerCase().contains(query.toLowerCase())) {
+                filteredList.add(model);
+            }
+        }
+        rcGymAdapter.filterList(filteredList);
+    }
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_gyms, container, false);
+
+        SearchView searchView = rootView.findViewById(R.id.searchView);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                filter(newText);
+                return true;
+            }
+        });
 
         recyclerView = rootView.findViewById(R.id.recyclerGyms);
         recyclerView.setLayoutManager(new LinearLayoutManager(requireContext()));

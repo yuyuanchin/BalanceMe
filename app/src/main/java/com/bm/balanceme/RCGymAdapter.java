@@ -96,4 +96,9 @@ public class RCGymAdapter extends RecyclerView.Adapter<RCGymAdapter.RCGymViewHol
             navigateBtn = itemView.findViewById(R.id.navigate);
         }
     }
+
+    public void filterList(ArrayList<RCGymModel> filteredList) {
+        modelArrayList = filteredList;
+        notifyDataSetChanged();
+    }
 }

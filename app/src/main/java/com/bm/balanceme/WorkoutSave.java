@@ -42,7 +42,7 @@ public class WorkoutSave extends AppCompatActivity {
         dataSource.open();
 
         setupSavedWorkoutRecyclerView();
-        //dataSource.clearAllWorkoutData();
+        dataSource.clearAllWorkoutData();
     }
 
     private void setupSavedWorkoutRecyclerView() {

@@ -32,11 +32,6 @@ public class RecommendFragment extends Fragment {
         vpAdapter = new ViewPagerAdapter((FragmentActivity) requireContext());
         viewPager2.setAdapter(vpAdapter);
 
-        SearchView searchView = view.findViewById(R.id.searchView);
-        EditText searchEditText = searchView.findViewById(androidx.appcompat.R.id.search_src_text);
-        searchEditText.setHintTextColor(getResources().getColor(R.color.grey300));
-
-
         toggleButton.addOnButtonCheckedListener(new MaterialButtonToggleGroup.OnButtonCheckedListener() {
             @Override
             public void onButtonChecked(MaterialButtonToggleGroup group, int checkedId, boolean isChecked) {
